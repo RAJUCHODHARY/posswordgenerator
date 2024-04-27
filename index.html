@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>password generator</h1>
+        <div class="result-container">
+            <input type="text" class="result" id="myInput">
+            <button onclick="myFunction()">copyText
+            </button>
+        </div>
+        <div class="settings">
+            <div class="setting">
+                <label for="">password length</label>
+                <input type="number" id="length" min="4" max="20" />
+            </div>
+
+            <div class="setting">
+                <label for="">Include uppercase</label>
+                <input type="checkbox" id="uppercase" checked>
+            </div>
+
+            <div class="setting">
+                <label for="">Include lowercase</label>
+                <input type="checkbox" id="lowercase" checked>
+            </div>
+
+
+            <div class="setting">
+                <label for="">Include number</label>
+                <input type="checkbox" id="number" checked>
+            </div>
+
+
+            <div class="setting">
+                <label for="">Include symbols</label>
+                <input type="checkbox" id="symbols" checked>
+            </div>
+        </div>
+        <button class="buttons"> password generator</button>
+    </div>
+    <script src="script.js">   
+
+    </script>
+</body>
+
+</html>
